@@ -1,0 +1,181 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.page-header {
+    position: relative;
+    width: 100%;
+    height: 85px;
+
+    background-color: #ffffff;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.fixed-top {
+    position: fixed; /* Menu cố định */
+    top: 0; /* Đặt ở đầu trang */!important
+    width: 100%; /* Chiều rộng toàn trang */
+    z-index: 1000; /* Đảm bảo menu nổi trên các phần tử khác */
+    background-color: #ffffff;
+    box-shadow: 0 6px 15px #6305D3;
+}
+
+nav .logo {
+    width: 90px;
+    height: 70px
+}
+.nav-item{
+    font-size: 18px;
+}
+/*:root {
+    --primary-hover-color: #6305D3;
+    --info-hover-color: #E3D2F7;
+    #2B005F
+}*/
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link i:hover {
+    color: #6305D3;
+    transition: color 0.2s ease;
+}
+
+.navigation .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #6305D3;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+    .navigation .items a { 
+        color: #6305D3;
+        font-size: 20px;
+        text-decoration: none;
+    }
+.dropdown .ava {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #6305D3;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.dropdown .ava img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dropdown-menu {
+    box-shadow: 0 3px 10px #6305D3;
+}
+
+.dropdown-menu .card {
+    border: none;
+}
+
+.dropdown-menu .card-header {
+    border: 3px solid #6305D3;
+    border-radius: 10px;
+    background-color: #E3D2F7;
+}
+
+        .dropdown-menu .card-header .ava-prof-menu img {
+            height: 50px;
+            width: 50px;
+            border: 3px solid #6305D3;
+            border-radius: 50%;
+        }
+    .dropdown-menu .card-header span {
+        font-weight: 900;
+        color: #6305D3;
+
+    }
+.dropdown-menu .card-body .ite {
+    border: 3px solid #E3D2F7;
+    border-radius: 5px;
+    background-color: #E3D2F7;
+}
+    .dropdown-menu .card-body a:hover {
+        border: 3px solid #6305D3;
+    }
+    .dropdown-menu .card-body a {
+        display:block;
+        
+        font-size: 18px;
+        text-decoration: none;
+        color:#000000;  
+    }
+
+.dropdown-menu .card-footer {
+    border: none;
+    background-color: #ffffff;
+}
+
+    .dropdown-menu .card-footer .bt {
+        border: 3px solid #6305D3;
+        color: #6305D3;
+        background-color: #ffffff;
+    }
+        .dropdown-menu .card-footer .bt:hover {
+            background-color: #6305D3;
+            color: #ffffff;
+        }
+
+.page-footer {
+    background-color: #E3D2F7;
+    color: #2B005F;
+    padding: 30px;
+}
+
+    .page-footer .items-footer .bord {
+        border: 3px solid #2B005F;
+        border-radius: 50%;
+    }
+    .page-footer .items-footer img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%
+    }
+
+    .page-footer span {
+        font-size: 21px;
+        color: #2B005F;
+        font-weight: 900;
+        /*text-shadow: -1px -1px 0 #2B005F, 1px -1px 0 #2B005F, -1px 1px 0 #2B005F, 1px 1px 0 #2B005F;*/
+    }
+    .page-footer .items-footer p{
+        font-weight: 500;
+    }
+    .page-footer .items-footer .items-society {
+        border: 3px solid #2B005F;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page-footer .items-footer i::before {
+        font-size: 18px;
+        color: #2B005F;
+    }
+
+    .page-footer a {
+        text-decoration: none;
+        color: #2B005F;
+        font-weight: 500;
+    }
+
+        .page-footer a:hover {
+            color: #6305D3;
+        }
+
+

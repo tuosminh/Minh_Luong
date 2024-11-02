@@ -1,0 +1,182 @@
+﻿.container .box .card {
+    border: none;
+    box-shadow: 0 10px 15px #6305D3;
+
+    position: relative;
+    border-radius: 20px;
+}
+
+.box1 .card {
+    background: linear-gradient(to right, #ffffff, #E3D2F7, #6305D3);
+}
+
+.box2 .card {
+    background: linear-gradient(to left, #ffffff, #E3D2F7, #6305D3);
+}
+
+.box .card h2 {
+    color: #2B005F;
+    font-size: 32px;
+    font-weight: 900;
+    /*text-shadow: -1px -1px 0 #6305D3, 1px -1px 0 #6305D3, -1px 1px 0 #6305D3, 1px 1px 0 #6305D3;*/
+}
+
+.box .card p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box .btn-custom {
+    background-color: #ffffff;
+    color: #6305D3;
+    padding: 5px 20px;
+    border: 3px solid #6305D3;
+    border-radius: 10px;
+    cursor: pointer;
+    /* Con trỏ khi hover */
+    font-size: 21px;
+    font-weight: bold;
+    /*transition: background-color 0.3s ease;*/
+    /* Hiệu ứng chuyển màu khi hover */
+    /*text-transform: uppercase;*/
+    /* Chuyển text thành chữ in hoa */
+}
+
+.btn-custom:hover {
+    color: #ffffff;
+    background-color: #6305D3;
+}
+
+/* .box1 .img-box {
+    width: 200px;
+    height: 150px;
+} */
+
+.box1 .box {
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+}
+
+.box1 .img-items {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: gallary 30s linear infinite;
+    border: 3px solid #E3D2F7;
+    border-radius: 10px;
+
+}
+
+.box1 .img-box {
+    position: relative;
+    width: 150px;
+    max-width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* overflow: hidden; */
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.box1 .img-box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(250px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent 80%, #0004);
+}
+
+.box1 .img-box span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .box1 .img-box {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .img-items {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.box1 .img-items-1 {
+    width: 150px;
+    border-radius: 10px 10px 10px 10px;
+    top: 230px;
+    right: 300px;
+    left: 280px;
+}
+
+.box1 .img-items-2 {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 0 0 10px;
+    top: 90px;
+    right: 0;
+}
+
+.box1 .img-items-3 {
+    width: 200px;
+    border-radius: 0 0 10px 10px;
+    top: 0;
+    left: 200px;
+}
+
+.box1 .img-items-4 {
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+    bottom: 0;
+    left: 30px;
+} */
+
+.box2 .img-box {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box2 .img-items {
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #E3D2F7;
+    transition: all ease-in-out 0.5s;
+}
+
+.box2 .img-items:hover {
+    width: 40%;
+}
