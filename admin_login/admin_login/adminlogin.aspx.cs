@@ -17,10 +17,12 @@ namespace admin_login
 
         protected void Buttonlogin_Click(object sender, EventArgs e)
         {
-            string Username = Usernamelg.Text.Trim();
-            String Pass = Passlg.Text.Trim();
+            //string Email = Emaillg.Text.Trim();
+            //String Pass = Passlg.Text.Trim();
+            string Email = TextBox1.Text.Trim();
+            string Pass = TextBox2.Text.Trim();
 
-            if (AuthenticateUser(Username, Pass))
+            if (AuthenticateUser(Email, Pass))
             {
                 //Dang nhap thanh cong
                 lblMessage.Text = "Đăng nhập thành công";
@@ -33,10 +35,10 @@ namespace admin_login
             }
         }
 
-        private bool AuthenticateUser(String Username, String Pass)
+        private bool AuthenticateUser(String Email, String Pass)
         {
             Lopketnoi kn = new Lopketnoi();
-            string query = $"SELECT * FROM KHACHHANG WHERE TENDANGNHAP = N'{Username}' AND MATKHAU ='{Pass}'";
+            string query = $"SELECT * FROM login WHERE EMAIL = N'{Email}' AND PASSWORD ='{Pass}'";
             DataTable dt = kn.LayDuLieu(query);
             return dt!= null && dt.Rows.Count > 0;
         }
