@@ -13,15 +13,15 @@
 
   </head>
   <body>
-    <%--<header class="page-header">
+   <header class="page-header">
         <nav class="fixed-top navbar navbar-expand-lg bg-body-white">
-            <div class="container-fluid">--%>
+            <div class="container-fluid">
                 <%--logo--%>
-                <%--<a href="Home.aspx">
+              <a href="Home.aspx">
                     <img class="logo me-3" src="images/lg_IA.jpg" />
-                </a>--%>
+                </a>
                 <%--menu--%>
-               <%-- <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon float"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -116,7 +116,7 @@
                 </div>
             </div>
         </nav>
-    </header>--%>
+    </header>
 
     <%--content--%>
     <div class="container">
@@ -128,7 +128,7 @@
         </form>
     </div>
     
-   <%-- <footer class="page-footer">
+    <footer class="page-footer">
         <div class="row">
             <div class="col-lg-6">
                 <div class="items-footer">
@@ -218,7 +218,7 @@
                 </div>
             </div>
         </div>
-    </footer>--%>
+    </footer>
     
 
 
@@ -231,5 +231,5 @@
 
     <script>
 
-    </script>
+</script>
 </html>

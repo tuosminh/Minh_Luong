@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -19,8 +20,13 @@ namespace WebApplication1
             String sql = "Select * from TIMKIEMM";
             //db1.DataSource = kn.LayDuLieu(sql);
             //db1.DataBind();
-            DB1.DataSource = kn.LayDuLieu(sql); 
+            DB1.DataSource = kn.LayDuLieu(sql);
             DB1.DataBind();
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
