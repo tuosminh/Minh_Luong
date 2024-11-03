@@ -1,0 +1,119 @@
+﻿/* Tổng thể bố cục */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+.image-left, .image-right {
+    width: 380px; /* Adjust the width as needed */
+    display: flex;
+    align-items: center;
+}
+
+    .image-left img, .image-right img {
+        width: 100%;
+        height: auto;
+    }
+
+/* Bố cục form chính giữa */
+form {
+    display: flex;
+    width: 60%;
+    height: 80vh;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+    /* Phần nền trái */
+    form::before {
+        content: "";
+        width: 33%;
+        background-color: #1b1b1b;
+        background-image: url('../images/a_lg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Phần nền phải */
+    form::after {
+        content: "";
+        width: 33%;
+        background-color: #f0b4f2;
+        background-image: url('../images/b_lg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+/* Phần form đăng nhập ở giữa */
+#form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+    /* Label */
+    #form1 label {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    /* TextBox */
+    #form1 input[type="text"],
+    #form1 input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+/* Button */
+#Buttonlogin {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+    #Buttonlogin:hover {
+        background-color: #555;
+    }
+
+/* Thông báo lỗi */
+#lblMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ff0000;
+    display: none; /* Ẩn mặc định */
+}
+
+/* Liên kết bổ sung */
+.extra-links {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+    .extra-links a {
+        color: #888;
+        text-decoration: none;
+    }
+
+        .extra-links a:hover {
+            text-decoration: underline;
+        }

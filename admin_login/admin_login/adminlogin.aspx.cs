@@ -27,11 +27,13 @@ namespace admin_login
                 //Dang nhap thanh cong
                 lblMessage.Text = "Đăng nhập thành công";
                 lblMessage.ForeColor = System.Drawing.Color.Green;
+                Response.Redirect("Home.aspx");
             }
             else
             {
                 //Dang nhap that bai
                 lblMessage.Text = "Email hoặc mật khẩu không đúng!";
+                lblMessage.ForeColor = System.Drawing.Color.Red;
             }
         }
 

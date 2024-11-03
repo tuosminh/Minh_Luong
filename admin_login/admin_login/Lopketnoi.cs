@@ -13,7 +13,7 @@ namespace admin_login
 
         private void MoKetNoi()
         {
-            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\SM_tminh\admin_login\admin_login\App_Data\Database1.mdf;Integrated Security=True";
+            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Acer Nitro 5\Documents\GitHub\Minh_Luong\admin_login\admin_login\App_Data\Database1.mdf"";Integrated Security=True";
             cn = new SqlConnection(SqlCon);
 
             cn.Open();
