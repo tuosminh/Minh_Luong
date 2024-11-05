@@ -15,13 +15,13 @@ namespace WebApplication1
     {
 
         /// <summary>
-        /// btnthemanh control.
+        /// FileUpload1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnthemanh;
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
 
         /// <summary>
         /// lbltieude control.
@@ -87,13 +87,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label lblchonfile;
 
         /// <summary>
-        /// Button1 control.
+        /// FileUpload2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload2;
 
         /// <summary>
         /// lblbanquyen control.
@@ -105,13 +105,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label lblbanquyen;
 
         /// <summary>
-        /// Button2 control.
+        /// FileUpload3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload3;
 
         /// <summary>
         /// btndang control.

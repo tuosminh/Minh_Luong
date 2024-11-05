@@ -74,6 +74,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin_Home.aspx" />
+    <Content Include="Admin_LoginMain.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -143,10 +145,25 @@
     <Content Include="Search.aspx" />
     <Content Include="Setting.aspx" />
     <Content Include="ShoppingCart.aspx" />
+    <Content Include="Test_upload.aspx" />
     <Content Include="Upload.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_Home.aspx.cs">
+      <DependentUpon>Admin_Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Home.aspx.designer.cs">
+      <DependentUpon>Admin_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_LoginMain.aspx.cs">
+      <DependentUpon>Admin_LoginMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_LoginMain.aspx.designer.cs">
+      <DependentUpon>Admin_LoginMain.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Chatting.aspx.cs">
       <DependentUpon>Chatting.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -272,6 +289,13 @@
     </Compile>
     <Compile Include="ShoppingCart.aspx.designer.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test_upload.aspx.cs">
+      <DependentUpon>Test_upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test_upload.aspx.designer.cs">
+      <DependentUpon>Test_upload.aspx</DependentUpon>
     </Compile>
     <Compile Include="Upload.aspx.cs">
       <DependentUpon>Upload.aspx</DependentUpon>
