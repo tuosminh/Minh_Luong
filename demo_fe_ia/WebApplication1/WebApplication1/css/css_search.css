@@ -1,0 +1,102 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+    .search-bar input {
+        width: 80%;
+        padding: 8px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+    }
+.recent-searches {
+    padding: 20px;
+}
+
+    .recent-searches h3 {
+        font-size: 16px;
+        color: #800080;
+        font-weight: bold;
+    }
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #e1bee7;
+    color: #333;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+/* Phần Recommended (Gợi ý) */
+.recommended-section {
+    padding: 20px;
+    font-size: 16px;
+    color: #800080;
+    font-weight: bold;
+}
+
+    .recommended-section #Label3 {
+        font-weight: bold;
+        color: #6a0dad;
+        font-size: 18px;
+        margin-bottom: 15px;
+        display: block;
+        text-align: left;
+    }
+
+/* Lưới các mục được gợi ý */
+.recommended-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cột */
+    gap: 50px;
+}
+
+/* Kiểu cho từng mục trong DataList */
+.datalist-item {
+    display: flex;
+    align-items: center;
+    background-color: #E0D7FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+    /* Kiểu cho ImageButton */
+    .datalist-item .ImageButton {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+
+    /* Kiểu cho LinkButton */
+    .datalist-item .LinkButton {
+        font-weight: bold;
+        color: #4A00E0;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 5px 10px;
+        background-color: #D7BBFF;
+        border-radius: 10px;
+        flex: 1;
+        text-align: center;
+    }
+
+    /* Hiệu ứng hover (di chuột qua) để tạo cảm giác tương tác */
+    .datalist-item:hover .LinkButton {
+        background-color: #b299e6;
+    }
+
+    .datalist-item:hover .ImageButton {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
