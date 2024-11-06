@@ -76,6 +76,7 @@
   <ItemGroup>
     <Content Include="Admin_Home.aspx" />
     <Content Include="Admin_LoginMain.aspx" />
+    <Content Include="Admin_UserManageDetail.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -167,6 +168,20 @@
     </Compile>
     <Compile Include="Admin_LoginMain.aspx.designer.cs">
       <DependentUpon>Admin_LoginMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Menu.Master.cs">
+      <DependentUpon>Admin_Menu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Menu.Master.designer.cs">
+      <DependentUpon>Admin_Menu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UserManageDetail.aspx.cs">
+      <DependentUpon>Admin_UserManageDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_UserManageDetail.aspx.designer.cs">
+      <DependentUpon>Admin_UserManageDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="Chatting.aspx.cs">
       <DependentUpon>Chatting.aspx</DependentUpon>
@@ -328,6 +343,7 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <None Include=".editorconfig" />
     <Content Include=".vscode\settings.json" />
+    <Content Include="Admin_Menu.Master" />
     <None Include="packages.config" />
     <Content Include="Menu.Master" />
     <Content Include="Scripts\bootstrap.min.js.map" />
