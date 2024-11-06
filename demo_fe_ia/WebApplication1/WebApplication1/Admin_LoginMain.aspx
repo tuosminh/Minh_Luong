@@ -18,9 +18,9 @@
         </div>
         <h1>Log in</h1>
        
-        <asp:Label ID="Emaillg" runat="server" Text="Email"></asp:Label><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:Label ID="Emaillg" runat="server" Text="Email"></asp:Label><asp:TextBox ID="txtEmailAM" runat="server"></asp:TextBox>
         <br />
-        <asp:Label ID="Passlg" runat="server" Text="Password"></asp:Label><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:Label ID="Passlg" runat="server" Text="Password"></asp:Label><asp:TextBox ID="txtPassAM" runat="server"></asp:TextBox>
         <br />
         <asp:Button ID="Buttonlogin" runat="server" Text="Log in" OnClick="Buttonlogin_Click" />
         <br />
