@@ -33,13 +33,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Emaillg;
 
         /// <summary>
-        /// txtEmailAM control.
+        /// TextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmailAM;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
         /// Passlg control.
@@ -51,13 +51,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label Passlg;
 
         /// <summary>
-        /// txtPassAM control.
+        /// TextBox2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassAM;
+        protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
         /// Buttonlogin control.
