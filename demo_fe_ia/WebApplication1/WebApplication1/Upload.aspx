@@ -4,6 +4,7 @@
     <div class="upload-form">
     <div class="upload-preview">
         <div class="add-icon">+</div>
+        <asp:FileUpload ID="FileUpload1" runat="server" />
     </div>
     
     <div class="form-fields">
