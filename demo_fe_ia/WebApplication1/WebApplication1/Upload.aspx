@@ -34,6 +34,8 @@
 <!-- Nút bấm nằm bên dưới khung -->
 <div class="post-button-container">
     <asp:Button ID="btndang" runat="server" Text="Post" CssClass="post-button" OnClick="btndang_Click" />
+    <br />
+    <asp:Label ID="lblMessage" runat="server" Text="lblMessage" ForeColor="Maroon"></asp:Label>
 </div>
 
 

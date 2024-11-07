@@ -127,7 +127,7 @@ namespace WebApplication1
                         conn.Open();
 
                         // Câu lệnh SQL để chèn dữ liệu vào bảng
-                        string query = "INSERT INTO User_Post (TENBAIVIET, MOTA, LOAIBAIVIET, HINHANH, FILEART, FILEBANQUYEN) " +
+                        string query = "INSERT INTO UserPost (TENBAIVIET, MOTA, LOAIBAIVIET, HINHANH, FILEART, FILEBANQUYEN) " +
                                        "VALUES (@TENBAIVIET, @MOTA, @LOAIBAIVIET, @HINHANH, @FILEART, @FILEBANQUYEN)";
 
                         using (SqlCommand cmd = new SqlCommand(query, conn))
@@ -145,21 +145,21 @@ namespace WebApplication1
                     }
 
                     // Hiển thị thông báo thành công
-                    Label1.Text = "Artwork uploaded and post saved successfully!";
-                    Label1.ForeColor = System.Drawing.Color.Green; 
+                    lblMessage.Text = "Artwork uploaded and post saved successfully!";
+                    lblMessage.ForeColor = System.Drawing.Color.Green; 
                 }
                 catch (Exception ex)
                 {
                     // Xử lý lỗi nếu có
-                    Label1.Text = "Error: " + ex.Message;
-                    Label1.ForeColor = System.Drawing.Color.Red;
+                    lblMessage.Text = "Error: " + ex.Message;
+                    lblMessage.ForeColor = System.Drawing.Color.Red;
                 }
             }
             else
             {
                 // Thông báo nếu người dùng chưa chọn tệp ảnh
-                Label1.Text = "Please select an image to upload.";
-                Label1.ForeColor = System.Drawing.Color.Red;
+                lblMessage.Text = "Please select an image to upload.";
+                lblMessage.ForeColor = System.Drawing.Color.Red;
             }
         }
     }
