@@ -106,6 +106,7 @@
     <Content Include="css\css_photos.css" />
     <Content Include="css\css_profile.css" />
     <Content Include="css\css_search.css" />
+    <Content Include="css\css_upload.css" />
     <Content Include="ExhibitionCorner.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Help.aspx" />

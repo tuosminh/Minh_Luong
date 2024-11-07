@@ -1,0 +1,104 @@
+﻿/* Container chính cho form */
+.upload-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #9b59b6;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(155, 89, 182, 0.4);
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+/* Khu vực xem trước (preview) */
+.upload-preview {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #9b59b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #f4f4f9;
+}
+
+/* Biểu tượng thêm hình */
+.add-icon {
+    font-size: 48px;
+    color: #9b59b6;
+}
+
+/* Các trường nhập liệu và nhãn */
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+    /* Nhãn cho từng trường */
+    .form-fields label {
+        font-weight: bold;
+        color: #5c5c5c;
+    }
+
+/* Ô nhập liệu văn bản */
+.text-input {
+    width: 250px;
+    padding: 8px;
+    border: 2px solid #9b59b6;
+    border-radius: 4px;
+    outline: none;
+    color: #9b59b6;
+}
+
+    .text-input::placeholder {
+        color: #9b59b6;
+        opacity: 0.7;
+    }
+
+/* Đầu vào file */
+.file-input {
+    width: 150px;
+    padding: 4px;
+    border: 2px solid #9b59b6;
+    border-radius: 4px;
+    color: #9b59b6;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Container cho nút bấm post */
+.post-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Nút bấm đăng */
+.post-button {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #9b59b6;
+    background-color: transparent;
+    color: #9b59b6;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .post-button:hover {
+        background-color: #9b59b6;
+        color: #fff;
+    }
