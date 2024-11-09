@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|e:\\team_7\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\shoppingcart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer nitro 5\\documents\\github\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\admin_usermanagedetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\admin_usermanagedetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|e:\\team_7\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\shoppingcart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\shoppingcart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer nitro 5\\documents\\github\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\css\\css_admin_usermanagerdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_admin_usermanagerdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|e:\\team_7\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\search.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\search.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\webapplication1\\admin_loginmain.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\admin_loginmain.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer nitro 5\\documents\\github\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\css\\css_search.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_search.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,59 +21,67 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 22,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 17,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShoppingCart.aspx.cs",
-              "DocumentMoniker": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\ShoppingCart.aspx.cs",
-              "ToolTip": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\ShoppingCart.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T13:15:39.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShoppingCart.aspx",
-              "DocumentMoniker": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\ShoppingCart.aspx",
-              "ToolTip": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\ShoppingCart.aspx*",
-              "RelativeToolTip": "WebApplication1\\ShoppingCart.aspx*",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-08T13:15:36.177Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Search.aspx.cs",
-              "DocumentMoniker": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Search.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Search.aspx.cs",
-              "ToolTip": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Search.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\Search.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T13:12:08.714Z",
+              "Title": "css_search.css",
+              "DocumentMoniker": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_search.css",
+              "RelativeDocumentMoniker": "WebApplication1\\css\\css_search.css",
+              "ToolTip": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_search.css",
+              "RelativeToolTip": "WebApplication1\\css\\css_search.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-09T17:56:06.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Admin_LoginMain.aspx.cs",
-              "DocumentMoniker": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Admin_LoginMain.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Admin_LoginMain.aspx.cs",
-              "ToolTip": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Admin_LoginMain.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\Admin_LoginMain.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T11:37:45.731Z"
+              "DocumentIndex": 1,
+              "Title": "css_admin_usermanagerdetail.css",
+              "DocumentMoniker": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_admin_usermanagerdetail.css",
+              "RelativeDocumentMoniker": "WebApplication1\\css\\css_admin_usermanagerdetail.css",
+              "ToolTip": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_admin_usermanagerdetail.css",
+              "RelativeToolTip": "WebApplication1\\css\\css_admin_usermanagerdetail.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-09T17:04:15.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 27,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin_UserManageDetail.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Admin_UserManageDetail.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Admin_UserManageDetail.aspx",
+              "ToolTip": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Admin_UserManageDetail.aspx",
+              "RelativeToolTip": "WebApplication1\\Admin_UserManageDetail.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-09T16:59:19.855Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 153,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

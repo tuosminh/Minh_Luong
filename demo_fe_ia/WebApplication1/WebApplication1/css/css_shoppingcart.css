@@ -1,0 +1,79 @@
+﻿.cart-list {
+    width: 100%;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-image {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.product-name {
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-price, .product-subtotal {
+    font-size: 16px;
+    color: #666;
+    width: 100px;
+    text-align: center;
+}
+
+.product-subtotal {
+    color: #f28b0c;
+}
+
+.buy-button {
+    padding: 5px 15px;
+    background-color: white;
+    border: 1px solid #333;
+    color: #333;
+    cursor: pointer;
+}
+
+.coupon-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.coupon-input {
+    padding: 5px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.apply-coupon-button, .update-cart-button {
+    padding: 5px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.message-label {
+    font-size: 14px;
+    color: #CC0000;
+    margin-top: 10px;
+}
