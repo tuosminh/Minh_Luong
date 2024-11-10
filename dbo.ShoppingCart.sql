@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[ShoppingCart] (
+    [Id]         INT           IDENTITY (1, 1) NOT NULL,
+    [ANHSANPHAM] NVARCHAR (50) NULL,
+    [TENSANPHAM] NVARCHAR (50) NULL,
+    [GIA]        NVARCHAR (50) NULL,
+    [SUBTOTAL]   DECIMAL NULL,
+    [COUPON]     NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

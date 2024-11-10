@@ -94,58 +94,57 @@ namespace WebApplication1
         // Sự kiện xử lý khi nhấn nút "Apply Coupon"
         protected void Button3_Click(object sender, EventArgs e)
         {
-            string couponCode = TextBox1.Text.Trim(); // Lấy mã giảm giá nhập vào từ TextBox
+            string couponCode = TextBox1.Text.Trim(); // Lấy mã giảm giá từ TextBox
 
             if (string.IsNullOrEmpty(couponCode))
             {
-                Label4.Text = "Please enter a coupon code!";
+                Label4.Text = "Vui lòng nhập mã giảm giá!";
                 return;
             }
 
-            // Kiểm tra mã giảm giá trong database
+            // Kiểm tra mã giảm giá trong cơ sở dữ liệu
             string couponCheckSql = "SELECT * FROM ShoppingCart WHERE COUPON = @CouponCode";
             SqlParameter[] couponParameters = {
-                new SqlParameter("@CouponCode", SqlDbType.NVarChar) { Value = couponCode }
-            };
+        new SqlParameter("@CouponCode", SqlDbType.NVarChar) { Value = couponCode }
+    };
             DataTable couponData = kn.LayDuLieu(couponCheckSql, couponParameters);
 
-            if (couponData != null && couponData.Rows.Count > 0) // Nếu mã giảm giá hợp lệ
+            if (couponData != null && couponData.Rows.Count > 0)  // Nếu mã giảm giá hợp lệ
             {
                 try
                 {
-                    // Áp dụng giảm giá 20% cho tất cả sản phẩm trong giỏ hàng
-                    DataTable cartData = kn.LayDuLieu("SELECT * FROM ShoppingCart");
-
-                    foreach (DataRow row in cartData.Rows)
+                    // Duyệt qua từng sản phẩm có mã coupon khớp để giảm giá 20% cho `SUBTOTAL`
+                    foreach (DataRow row in couponData.Rows)
                     {
-                        decimal subtotal = Convert.ToDecimal(row["SUBTOTAL"]);
+                        decimal gia = Convert.ToDecimal(row["GIA"]);
 
-                        // Giảm 20% cho giá trị Subtotal
-                        decimal subtotalDiscounted = subtotal * 0.8m;
+                        // Tính toán SUBTOTAL sau khi giảm giá 20%
+                        decimal subtotalDiscounted = gia * 0.8m;
 
-                        // Cập nhật giá đã giảm vào cơ sở dữ liệu
+                        // Cập nhật SUBTOTAL đã giảm giá vào cơ sở dữ liệu
                         string updateSql = "UPDATE ShoppingCart SET SUBTOTAL = @Subtotal WHERE Id = @Id";
                         SqlParameter[] updateParameters = {
-                            new SqlParameter("@Subtotal", SqlDbType.Decimal) { Value = subtotalDiscounted },
-                            new SqlParameter("@Id", SqlDbType.Int) { Value = row["Id"] }
-                        };
+                    new SqlParameter("@Subtotal", SqlDbType.Decimal) { Value = subtotalDiscounted },
+                    new SqlParameter("@Id", SqlDbType.Int) { Value = row["Id"] }
+                };
                         kn.ThucThiLenh(updateSql, updateParameters);
                     }
 
-                    // Tải lại giỏ hàng với giá đã giảm
+                    // Tải lại giỏ hàng để hiển thị giá đã giảm
                     LoadShoppingCart();
-                    Label4.Text = "Coupon applied successfully!";
+                    Label4.Text = "Áp dụng mã giảm giá thành công!";
                 }
                 catch (Exception ex)
                 {
-                    Label4.Text = "Error: " + ex.Message; // Hiển thị lỗi nếu có
+                    Label4.Text = "Lỗi: " + ex.Message;  // Hiển thị lỗi nếu có
                 }
             }
             else
             {
-                Label4.Text = "Invalid coupon code!";
+                Label4.Text = "Mã giảm giá không hợp lệ!";
             }
         }
+
 
         // Sự kiện xử lý khi nhấn nút "Update Cart"
         protected void Button4_Click(object sender, EventArgs e)

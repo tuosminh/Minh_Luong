@@ -75,7 +75,7 @@ namespace WebApplication1
                 MoKetNoi();
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
                 {
-                    
+
                     kq = cmd.ExecuteNonQuery();
                 }
             }

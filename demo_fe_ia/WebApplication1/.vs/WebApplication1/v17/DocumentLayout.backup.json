@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\",
+  "WorkspaceRootPath": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer nitro 5\\documents\\github\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\admin_usermanagedetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\admin_usermanagedetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer nitro 5\\documents\\github\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\css\\css_admin_usermanagerdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|e:\\team_7\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\css\\css_admin_usermanagerdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_admin_usermanagerdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|c:\\users\\acer nitro 5\\documents\\github\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\css\\css_search.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|e:\\team_7\\minh_luong\\demo_fe_ia\\webapplication1\\webapplication1\\admin_usermanagedetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\admin_usermanagedetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\webapplication1\\css\\css_search.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F4F44F4-84AB-4F2F-9EF2-65667A876602}|WebApplication1\\IA-Inspired_Art.csproj|solutionrelative:webapplication1\\css\\css_search.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -32,26 +32,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "css_search.css",
-              "DocumentMoniker": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_search.css",
+              "DocumentMoniker": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_search.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_search.css",
-              "ToolTip": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_search.css",
+              "ToolTip": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_search.css",
               "RelativeToolTip": "WebApplication1\\css\\css_search.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-09T17:56:06.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T20:49:48.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "css_admin_usermanagerdetail.css",
-              "DocumentMoniker": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_admin_usermanagerdetail.css",
+              "DocumentMoniker": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_admin_usermanagerdetail.css",
               "RelativeDocumentMoniker": "WebApplication1\\css\\css_admin_usermanagerdetail.css",
-              "ToolTip": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_admin_usermanagerdetail.css",
+              "ToolTip": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\css\\css_admin_usermanagerdetail.css",
               "RelativeToolTip": "WebApplication1\\css\\css_admin_usermanagerdetail.css",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-09T17:04:15.863Z",
+              "WhenOpened": "2024-11-10T20:49:48.334Z",
               "EditorCaption": ""
             }
           ]
@@ -62,15 +61,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Admin_UserManageDetail.aspx",
-              "DocumentMoniker": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Admin_UserManageDetail.aspx",
+              "DocumentMoniker": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Admin_UserManageDetail.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Admin_UserManageDetail.aspx",
-              "ToolTip": "C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Admin_UserManageDetail.aspx",
+              "ToolTip": "E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\Admin_UserManageDetail.aspx",
               "RelativeToolTip": "WebApplication1\\Admin_UserManageDetail.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-09T16:59:19.855Z",
+              "WhenOpened": "2024-11-10T20:49:48.703Z",
               "EditorCaption": ""
             }
           ]
