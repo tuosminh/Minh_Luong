@@ -92,7 +92,7 @@ namespace WebApplication1
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@Id", 3); // Ví dụ lấy dữ liệu của bài viết có Id = 1
+                cmd.Parameters.AddWithValue("@Id", 1); // Ví dụ lấy dữ liệu của bài viết có Id = 1
                 conn.Open();
 
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -126,11 +126,17 @@ namespace WebApplication1
         private void LoadComments()
         {
             // Lấy bình luận của người dùng (bảng CommentUser)
-            string sqlCmtUser = "SELECT * FROM CommentUser ORDER BY IDCMTUSER DESC ";
+            //string sqlCmtUser = "SELECT * FROM CommentUser ORDER BY IDCMTUSER DESC ";
+            //dsCmtuser.DataSource = lkn.LayDuLieu(sqlCmtUser);
+            //dsCmtuser.DataBind();
+            string sqlCmtUser = "SELECT * FROM CommentUser ORDER BY IDCMTUSER DESC";
             dsCmtuser.DataSource = lkn.LayDuLieu(sqlCmtUser);
             dsCmtuser.DataBind();
 
             // Lấy bình luận của người khác (bảng CommentOtherUser)
+            //string sqlCmtOtherUser = "SELECT * FROM CommentOtherUser";
+            //dsCmtotheruser.DataSource = lkn.LayDuLieu(sqlCmtOtherUser);
+            //dsCmtotheruser.DataBind();
             string sqlCmtOtherUser = "SELECT * FROM CommentOtherUser";
             dsCmtotheruser.DataSource = lkn.LayDuLieu(sqlCmtOtherUser);
             dsCmtotheruser.DataBind();

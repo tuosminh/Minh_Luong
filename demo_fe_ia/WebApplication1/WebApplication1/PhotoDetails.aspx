@@ -17,7 +17,7 @@
         <asp:DataList ID="dsCmtuser" runat="server">
             <ItemTemplate>
                 <asp:Image ID="imguser" runat="server" />
-                <asp:Label ID="lbltencmtuser" runat="server" Text='<%# Eval("TENCMTUSER") %>'></asp:Label>
+                <asp:Label ID="lbltencmtuser" runat="server" Text='<%# Eval("TENCMUSER") %>'></asp:Label>
            
                 <br />
                 <asp:Label ID="lblbinhluanuser" runat="server" Text='<%# Eval("BINHLUANUSER") %>'></asp:Label>
