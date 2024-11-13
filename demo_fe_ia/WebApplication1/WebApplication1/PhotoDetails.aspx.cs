@@ -69,7 +69,7 @@ namespace WebApplication1
 {
     public partial class PhotoDetails : System.Web.UI.Page
     {
-        string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";
+        string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf\";Integrated Security=True";
         LopKetNoi lkn = new LopKetNoi(); // Đối tượng kết nối cơ sở dữ liệu
 
         protected void Page_Load(object sender, EventArgs e)
@@ -125,18 +125,10 @@ namespace WebApplication1
         // Hàm để lấy dữ liệu bình luận từ cơ sở dữ liệu
         private void LoadComments()
         {
-            // Lấy bình luận của người dùng (bảng CommentUser)
-            //string sqlCmtUser = "SELECT * FROM CommentUser ORDER BY IDCMTUSER DESC ";
-            //dsCmtuser.DataSource = lkn.LayDuLieu(sqlCmtUser);
-            //dsCmtuser.DataBind();
+            
             string sqlCmtUser = "SELECT * FROM CommentUser ORDER BY IDCMTUSER DESC";
             dsCmtuser.DataSource = lkn.LayDuLieu(sqlCmtUser);
             dsCmtuser.DataBind();
-
-            // Lấy bình luận của người khác (bảng CommentOtherUser)
-            //string sqlCmtOtherUser = "SELECT * FROM CommentOtherUser";
-            //dsCmtotheruser.DataSource = lkn.LayDuLieu(sqlCmtOtherUser);
-            //dsCmtotheruser.DataBind();
             string sqlCmtOtherUser = "SELECT * FROM CommentOtherUser";
             dsCmtotheruser.DataSource = lkn.LayDuLieu(sqlCmtOtherUser);
             dsCmtotheruser.DataBind();
@@ -158,7 +150,7 @@ namespace WebApplication1
             try
             {
                 // Câu lệnh SQL kết nối với cơ sở dữ liệu
-                string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";
+                string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf\";Integrated Security=True";
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
