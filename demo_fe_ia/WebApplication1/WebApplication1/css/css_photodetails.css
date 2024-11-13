@@ -1,4 +1,4 @@
-﻿/*/.anhBaiDang {
+﻿﻿ /*/.anhBaiDang {
     width: 450px;
     height: 450px;
     border-radius: 6%;
@@ -11,23 +11,18 @@
     color: #333;
 }
 /* Phong cách cho khung tác giả */
-
+/* Định dạng chung cho container */
 /* Định dạng chung cho container */
 .author-section {
-    margin-top: 20px;
-    margin-bottom:20px;
     position: relative;
-    width: 700px; /* Tăng kích thước chiều rộng của form */
-    padding: 30px;
-    margin: 0 auto; /* Căn giữa theo chiều ngang */
+    width: 650px;
+    padding: 20px;
     border: 2px solid #A259FF;
     border-radius: 20px;
     box-shadow: 0px 8px 16px rgba(162, 89, 255, 0.4);
     background-color: #fff;
     font-family: Arial, sans-serif;
 }
-
-
 
 /* Định dạng cho icon container để đặt biểu tượng ở góc trên bên phải */
 .icon-container {
@@ -104,7 +99,7 @@
     height: 50px;
     border-radius: 50%;
     border: 2px solid #A259FF;
-}   
+}
 
 /* Định dạng cho tên tác giả */
 .author-name {
@@ -143,6 +138,7 @@
 .col-lg-7 {
     flex: 7;
 }
+
 
 
 /* Khung form tổng */
@@ -260,4 +256,3 @@
     color: #CC0000;
     font-weight: bold;
 }
-
