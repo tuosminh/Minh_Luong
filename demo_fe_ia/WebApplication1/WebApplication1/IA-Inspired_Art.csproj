@@ -106,7 +106,6 @@
     <Content Include="css\css_home.css" />
     <Content Include="css\css_login.css" />
     <Content Include="css\css_menu.css" />
-    <Content Include="css\css_photodetails.css" />
     <Content Include="css\css_photos.css" />
     <Content Include="css\css_profile.css" />
     <Content Include="css\css_search.css" />

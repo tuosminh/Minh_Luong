@@ -13,7 +13,7 @@ namespace WebApplication1
 
         private void MoKetNoi()
         {
-            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Acer Nitro 5\Documents\GitHub\Minh_Luong\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf"";Integrated Security=True";
+            string SqlCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\TEAM_7\Minh_Luong\demo_fe_ia\WebApplication1\WebApplication1\App_Data\Database1.mdf;Integrated Security=True";
             cn = new SqlConnection(SqlCon);
 
             cn.Open();
@@ -114,6 +114,29 @@ namespace WebApplication1
             }
 
             return rowsAffected;  // Trả về số dòng bị ảnh hưởng
+        }
+
+        public SqlDataReader LayDuLieuReader(string sql, SqlParameter[] parameters)
+        {
+            SqlDataReader reader = null;
+            try
+            {
+                MoKetNoi(); // Mở kết nối
+                using (SqlCommand cmd = new SqlCommand(sql, cn))
+                {
+                    // Thêm tham số vào câu lệnh SQL
+                    cmd.Parameters.AddRange(parameters);
+
+                    // Thực thi câu lệnh SQL và lấy SqlDataReader
+                    reader = cmd.ExecuteReader();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error executing SQL command: " + ex.Message);
+            }
+
+            return reader; // Trả về SqlDataReader
         }
 
 
