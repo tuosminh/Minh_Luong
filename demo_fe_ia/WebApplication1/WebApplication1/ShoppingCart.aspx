@@ -8,8 +8,8 @@
                 <asp:Button ID="btnXoa" runat="server" Text="✕" CommandName="Xoa" CommandArgument='<%# Eval("Id") %>' CssClass="delete-button" />
                 <asp:Image ID="Image1" runat="server" AlternateText='<%# Eval("Id") %>' ImageUrl='<%# "img_timkiem/" + Eval("ANHSANPHAM") %>' CssClass="product-image" />
                 <asp:Label ID="Label1" runat="server" Text='<%# Eval("TENSANPHAM") %>' CssClass="product-name"></asp:Label>
-                <asp:Label ID="Label2" runat="server" Text='<%# Eval("GIA") %>' CssClass="product-price"></asp:Label>
-                <asp:Label ID="Label3" runat="server" Text='<%# Eval("SUBTOTAL") %>' CssClass="product-subtotal"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text='<%# Eval("GIA") + " $" %>' CssClass="product-price"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text='<%# Eval("SUBTOTAL") + " $" %>' CssClass="product-subtotal"></asp:Label>
                 <asp:Button ID="btnMua" runat="server" Text="Buy Now" OnClick="btnMua_Click" CssClass="buy-button" />
             </div>
         </ItemTemplate>

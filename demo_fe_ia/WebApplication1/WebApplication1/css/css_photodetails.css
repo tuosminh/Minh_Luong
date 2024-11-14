@@ -1,5 +1,6 @@
 ﻿/* Định dạng chung cho container */
 .author-section {
+    margin-top: 20px;
     position: relative;
     width: 700px; /* Tăng kích thước chiều rộng của form */
     padding: 30px;
@@ -15,8 +16,8 @@
 /* Định dạng cho icon container để đặt biểu tượng ở góc trên bên phải */
 .icon-container {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 17px;
+    left: 600px;
     display: flex;
     gap: 8px;
 }
@@ -62,7 +63,7 @@
     font-size: 24px;
     font-weight: bold;
     color: #333;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* Định dạng cho mô tả */
@@ -176,7 +177,7 @@
 .user-name {
     font-weight: bold;
     color: #3C3C3C;
-    margin-left: 15px;
+    margin: 15px;
     font-size: 16px;
 }
 
@@ -195,7 +196,7 @@
     border: none;
     font-size: 24px;
     color: #A259FF;
-    margin-left: auto;
+    margin-top: auto;
     cursor: pointer;
 }
 

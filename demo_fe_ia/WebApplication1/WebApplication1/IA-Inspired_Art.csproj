@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Addsetting.aspx" />
+    <Content Include="Addsetting2.aspx" />
     <Content Include="Admin_Home.aspx" />
     <Content Include="Admin_LoginMain.aspx" />
     <Content Include="Admin_UserManageDetail.aspx" />
@@ -172,6 +173,13 @@
     </Compile>
     <Compile Include="Addsetting.aspx.designer.cs">
       <DependentUpon>Addsetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Addsetting2.aspx.cs">
+      <DependentUpon>Addsetting2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Addsetting2.aspx.designer.cs">
+      <DependentUpon>Addsetting2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin_Home.aspx.cs">
       <DependentUpon>Admin_Home.aspx</DependentUpon>
