@@ -74,7 +74,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Addsetting.aspx" />
     <Content Include="Addsetting2.aspx" />
     <Content Include="Admin_Home.aspx" />
     <Content Include="Admin_LoginMain.aspx" />
@@ -161,19 +160,11 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Search.aspx" />
-    <Content Include="Setting.aspx" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Test_upload.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addsetting.aspx.cs">
-      <DependentUpon>Addsetting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Addsetting.aspx.designer.cs">
-      <DependentUpon>Addsetting.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Addsetting2.aspx.cs">
       <DependentUpon>Addsetting2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -320,13 +311,6 @@
     </Compile>
     <Compile Include="Search.aspx.designer.cs">
       <DependentUpon>Search.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Setting.aspx.cs">
-      <DependentUpon>Setting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Setting.aspx.designer.cs">
-      <DependentUpon>Setting.aspx</DependentUpon>
     </Compile>
     <Compile Include="ShoppingCart.aspx.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>

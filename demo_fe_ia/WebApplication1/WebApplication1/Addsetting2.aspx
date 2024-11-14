@@ -16,7 +16,7 @@
                 <div class="username">luongcute</div>
             </div>
             <ul class="menu">
-                <li class="menu-item">Cài đặt hồ sơ</li>
+               
                 <li class="menu-item active">Cài đặt tài khoản</li>
             </ul>
         </div>
