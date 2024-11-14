@@ -1,58 +1,71 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="Setting.aspx.cs" Inherits="WebApplication1.Setting" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
-    <!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Settings</title>
-  <link rel="stylesheet" href="css/css_settings.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Settings</title>
+    <link href="css/css_settings.css" rel="stylesheet" />
 </head>
 <body>
-  <div class="container">
-    <!-- Sidebar Menu -->
-    <aside class="sidebar">
-      <h2>Settings</h2>
-      <ul>
-        <li><a href="#account-info" class="active">Account Information</a></li>
-        <li><a href="#notifications">Notifications</a></li>
-        <li><a href="#security">Security</a></li>
-        <li><a href="#download-history">Download History</a></li>
-        <li><a href="#general-settings">General Settings</a></li>
-      </ul>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="main-content">
-      <section id="account-info">
-        <h3>Account Information</h3>
-        <form>
-          <div class="form-group">
-            <label for="avatar">Avatar</label>
-            <input type="file" id="avatar" name="avatar">
-          </div>
-          <div class="form-group">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" placeholder="Your username">
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your email">
-          </div>
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="New password">
-          </div>
-          <div class="form-group">
-            <label for="bio">Personal Description</label>
-            <textarea id="bio" name="bio" placeholder="Write something about yourself"></textarea>
-          </div>
-          <button type="submit" class="btn-save">Save Changes</button>
-        </form>
-      </section>
-    </main>
-  </div>
+    <div class="container">
+        <div class="sidebar">
+            <div class="avatar-section">
+                <img src="images/a1_admin.jpg" alt="User Avatar" class="avatar">
+                <p class="username">luongcute</p>
+            </div>
+            <ul class="menu">
+                <li class="menu-item active">Cài đặt hồ sơ</li>
+                <li class="menu-item">Cài đặt tài khoản</li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <div class="header">
+                <img src="cover.png" alt="Cover Image" class="cover-image">
+                <button class="edit-cover">Chỉnh sửa bìa</button>
+            </div>
+            <form class="profile-form">
+                <div class="form-group">
+                    <label for="username">Tên người dùng</label>
+                    <input type="text" id="username" value="luongcute" readonly>
+                    <p class="note">Điều này sẽ được hiển thị trên hồ sơ của bạn</p>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">Tên đầu tiên</label>
+                        <input type="text" id="first-name" placeholder="Nhập tên của bạn">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Họ</label>
+                        <input type="text" id="last-name" placeholder="Nhập họ của bạn">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="about">Về tôi</label>
+                    <textarea id="about" placeholder="Trong một vài từ, hãy cho chúng tôi biết về bạn"></textarea>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="country">Quốc gia</label>
+                        <input type="text" id="country" value="Vietnam">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Thành phố</label>
+                        <input type="text" id="city" placeholder="Nhập thành phố của bạn">
+                    </div>
+                </div>
+                
+                <button type="submit" class="save-button">Lưu thay đổi</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
+
 
 </asp:Content>

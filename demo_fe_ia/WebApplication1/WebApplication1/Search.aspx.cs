@@ -72,6 +72,7 @@ namespace WebApplication1
                 Label1.Text = "Please enter a name to search.";
                 Label1.ForeColor = System.Drawing.Color.Red;
             }
+           
         }
 
     }

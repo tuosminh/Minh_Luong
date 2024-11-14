@@ -2,9 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
     <link rel="stylesheet" href="css/css_search.css">
      <div class="search-bar">
-        <asp:Label ID="Label1" runat="server" Text="Search"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" AutoPostBack="true"></asp:TextBox>
+    <asp:Label ID="Label1" runat="server" ></asp:Label>
+    <div class="search-input-wrapper">
+        <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" AutoPostBack="true" CssClass="search-textbox"></asp:TextBox>
+        <span class="search-icon">&#x1F50D;</span> <!-- Icon tìm kiếm -->
     </div>
+    <asp:Button ID="btnSearch" runat="server" Text="Search" CssClass="search-button" />
+</div>
     <br />
 
    <!--<asp:Label ID="Label2" runat="server" Text="Recent Searches"></asp:Label>-->

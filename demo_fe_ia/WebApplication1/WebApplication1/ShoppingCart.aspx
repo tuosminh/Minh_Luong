@@ -21,6 +21,6 @@
         <asp:Button ID="Button4" runat="server" Text="Update Cart" OnClick="Button4_Click" CssClass="update-cart-button" />
     </div>
 
-    <asp:Label ID="Label4" runat="server" Text="lblMessage" ForeColor="#CC0000" CssClass="message-label"></asp:Label>
+    <asp:Label ID="Label4" runat="server" Text="Hãy updated Cart!." ForeColor="#CC0000" CssClass="message-label"></asp:Label>
 </asp:Content>
 

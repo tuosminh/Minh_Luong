@@ -10,6 +10,7 @@
             <button class="icon-button dot-icon"></button>
         </div>
         <div class="col-lg-5">
+
                <asp:Image ID="anhbaidang" runat="server" CssClass="anhBaiDang"/>
         </div>
         <div class="col-lg-7">
@@ -24,12 +25,7 @@
             </div>
         </div>
     </div>
-    
-    
-    <br />
-
-    
- </div>
+</div>
 <!-- Phần hiển thị bình luận -->
 <div class="comment-section">
     <h1 class="comment-title">Comment</h1>

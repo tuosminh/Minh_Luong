@@ -8,7 +8,7 @@ namespace WebApplication1
     public partial class Chatting : System.Web.UI.Page
     {
         // Connection string to the database
-        string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";
+        string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf\";Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {

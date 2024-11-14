@@ -9,7 +9,7 @@ namespace WebApplication1
 {
     public partial class PhotoDetails : System.Web.UI.Page
     {
-        string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=E:\\TEAM_7\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf;Integrated Security=True";
+        string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Acer Nitro 5\\Documents\\GitHub\\Minh_Luong\\demo_fe_ia\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf\";Integrated Security=True";
         LopKetNoi lkn = new LopKetNoi(); // Đối tượng kết nối cơ sở dữ liệu
 
         protected void Page_Load(object sender, EventArgs e)
